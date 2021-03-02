@@ -126,20 +126,20 @@ Call CommonClient and pass in the corresponding parameters.
 
 | Method | API | Description |
 | ---- | ---- | ---- |
-| TokenClient.getToken | GET /v1.0/token?grant_type=1 | [Get access_token in simple mode](https://docs.tuya.com/docDetail?code=K8uuxenajovgv) |
-| TokenClient.refreshToken | GET /v1.0/token/{{easy_refresh_token}} | [Refresh token](https://docs.tuya.com/docDetail?code=K8uuxfcvdsqwm) |
-| DeviceClient.getDevice | GET /v1.0/devices/{{device_id}} | [Get device information](https://docs.tuya.com/docDetail?code=K8uuxen89a81x) |
-| DeviceClient.getDeviceFunctions | GET /v1.0/devices/{deviceId}/functions | [Get the list of functions supported by the device](https://docs.tuya.com/docDetail?code=K8uuxemwya69p) |
-| DeviceClient.getDeviceFunctionByCategory | GET /v1.0/functions/{category} | [Get function list according to category](https://docs.tuya.com/docDetail?code=K8uuxemym7qkt) |
-| DeviceClient.getDeviceStatus | GET /v1.0/devices/{{device_id}}/status | [Get device function point information](https://docs.tuya.com/docDetail?code=K8uuxen4ux749) |
-| DeviceClient.getDeviceList | GET /v1.0/devices/status?device_ids={{device_id}} | [Batch device status](https://docs.tuya.com/docDetail?code=K8uuxenar6kgc) |
-| DeviceClient.postDeviceCommand | POST /v1.0/devices/{{device_id}}/commands | [Device instruction issuance](https://docs.tuya.com/docDetail?code=K8uuxfcxbpwlo) |
-| DeviceClient.deleteDevice | DELETE /v1.0/devices/{device_id} | [Remove device](https://docs.tuya.com/docDetail?code=K8uuxemvwtp3z) |
-| DeviceClient.generateDeviceToken | POST /v1.0/devices/token | [Generate device configuration token](https://docs.tuya.com/docDetail?code=K8uuxfcujsk6n) |
-| DeviceClient.getDevicesByToken | GET /v1.0/devices/tokens/{{pair_token}} | [Get device list based on token](https://docs.tuya.com/docDetail?code=K8uuxemz174o3) |
-| DeviceClient.getDeviceListByUid | GET /v1.0/users/{uid}/devices | [Get device list based on user id](https://docs.tuya.com/docDetail?code=K8uuxfcuesrh7) |
-| UserClient.syncUser | POST /v1.0/apps/{schema}/user | [Cloud User Registration](https://docs.tuya.com/docDetail?code=K8uuxfcuhc2ei) |
-| UserClient.getUsers | GET /v1.0/apps/{schema}/users?page_no=&page_size= | [Get User List](https://docs.tuya.com/docDetail?code=K8uuxemwe9kwb) |
+| TokenClient.getToken | GET /v1.0/token?grant_type=1 | [Get access_token in simple mode](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/oauth-management?id=K95ztzpoll7v5) |
+| TokenClient.refreshToken | GET /v1.0/token/{{easy_refresh_token}} | [Refresh token](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/oauth-management?id=K95ztzpoll7v5) |
+| DeviceClient.getDevice | GET /v1.0/devices/{{device_id}} | [Get device information](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-management?id=K9g6rfntdz78a) |
+| DeviceClient.getDeviceFunctions | GET /v1.0/devices/{deviceId}/functions | [Get the list of functions supported by the device](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-control?id=K95zu01ksols7) |
+| DeviceClient.getDeviceFunctionByCategory | GET /v1.0/functions/{category} | [Get function list according to category](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-control?id=K95zu01ksols7) |
+| DeviceClient.getDeviceStatus | GET /v1.0/devices/{{device_id}}/status | [Get device function point information](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-management?id=K9g6rfntdz78a) |
+| DeviceClient.getDeviceList | GET /v1.0/devices/status?device_ids={{device_id}} | [Get device status in batches](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-management?id=K9g6rfntdz78a) |
+| DeviceClient.postDeviceCommand | POST /v1.0/devices/{{device_id}}/commands | [Device instruction issuance](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-control?id=K95zu01ksols7) |
+| DeviceClient.deleteDevice | DELETE /v1.0/devices/{device_id} | [Remove device](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-management?id=K9g6rfntdz78a) |
+| DeviceClient.generateDeviceToken | POST /v1.0/devices/token | [Generate device configuration token](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/paring-management?id=K95ztzyeyul2w) |
+| DeviceClient.getDevicesByToken | GET /v1.0/devices/tokens/{{pair_token}} | [Get device list based on token](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/paring-management?id=K95ztzyeyul2w) |
+| DeviceClient.getDeviceListByUid | GET /v1.0/users/{uid}/devices | [Get device list based on user id](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/device-management?id=K9g6rfntdz78a) |
+| UserClient.syncUser | POST /v1.0/apps/{schema}/user | [Cloud User Registration](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/user-management?id=K95ztzvgwnshy) |
+| UserClient.getUsers | GET /v1.0/apps/{schema}/users?page_no=&page_size= | [Get User List](https://developer.tuya.com/en/docs/iot/open-api/api-reference/api-list/user-management?id=K95ztzvgwnshy) |
 
 ## FAQ
 
